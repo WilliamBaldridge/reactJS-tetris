@@ -24,4 +24,4 @@ export const StyledTetris = styled.div`
         display: block;
         padding: 0 20px;
     }
-`
+`;
