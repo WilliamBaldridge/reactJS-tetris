@@ -8,9 +8,10 @@ export const usePlayer = () => {
     const [player, setPlayer] = useState({
 
         pos: { x: 0, y: 0},
-        tetromino: TETROMINOS[0].shape,
+        tetromino: TETROMINOS[0].shape, // Put back to TETROMINOS[0].shape for clear screen
         collided: false
     });
+    console.log(player)
 
 
     function rotate(matrix, dir) {
@@ -46,6 +47,7 @@ export const usePlayer = () => {
             pos: { x: (prev.pos.x += x), y: (prev.pos.y += y) },
             collided,
         }));
+        console.log(player);
     };
 
     const resetPlayer = useCallback(() => {
