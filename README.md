@@ -1,5 +1,6 @@
 # Walkthrough ReactJS Tetris
-Courtesy of https://github.com/weibenfalk
+Courtesy of Thomas Weibenfalk 
+https://www.youtube.com/watch?v=ZGOaCxX8HIU
 
 # Getting Started with Create React App
 
