@@ -1,3 +1,6 @@
+# Walkthrough ReactJS Tetris
+Courtesy of https://github.com/weibenfalk
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
